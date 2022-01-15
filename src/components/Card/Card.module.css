@@ -1,0 +1,109 @@
+.wrapper {
+    display: flex;
+    
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+    display: flex;
+    justify-content: start;
+    border: solid #3486a7  1px;
+    border-radius: 3px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.rightSide {
+    margin-left: 30px;
+    /* padding-top: 50px; */
+
+    width: 300px;
+    /* border: solid rgb(0, 0, 0) 1px; */
+}
+
+
+
+.image {
+    margin: 10px 10px 10px 10px;
+    height: 100px;
+    width: 200px;
+    border: solid rgb(0, 0, 0) 1px;
+}
+
+.image img {
+    height: 100px;
+    width: 200px;
+}
+
+.description {
+    margin-left: 10px;
+   
+}
+
+.inputType {
+    margin: 10px 10px 10px 10px;
+    display: block;
+    width: 300px;
+}
+
+.addButton {
+    margin: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    background:rgb(50, 50, 50);
+    text-align: center;
+    color:white;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+}
+
+.delButton {
+   
+    margin: 10px 10px 10px 250px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    background:rgb(235, 12, 12);
+    text-align: center;
+    color:white;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+}
+
+.service {
+    overflow-y: auto;
+    max-height: 300px;
+    min-height: 100px;
+    border: solid black 1px;
+}
+
+
+
+.text {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.addButton {
+    margin: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    background:rgb(50, 50, 50);
+    text-align: center;
+    color:white;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+}

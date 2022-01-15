@@ -1,0 +1,22 @@
+.wrapper {
+    margin-top: 10px;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    /* height: 200px; */
+    width: 350px;    
+    border: solid #3486a7  1px;
+    border-radius: 3px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.title{
+    text-align: center;
+    padding:  10px 0 10px 0;
+}
+
+label{
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
